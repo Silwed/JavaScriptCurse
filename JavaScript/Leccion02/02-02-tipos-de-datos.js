@@ -29,3 +29,58 @@ var objeto = {
 }
 
 console.log(objeto);
+
+// Ejemplo tipo boolean (true/false) simpre estas variables se usan como banderas
+var bandera = true;
+console.log(bandera);
+console.log(typeof bandera);
+
+//Las funciones pueden ser utilizadas como tipo de dato
+function miFuncion() {} 
+console.log(miFuncion);
+console.log(typeof miFuncion);
+
+// Tipo de dato simbolo (es tema avanzado)
+var simbolo = Symbol();
+console.log(simbolo);
+var simbolo2 = Symbol("mi simbolo");
+console.log(simbolo2);
+console.log(typeof simbolo);
+console.log(typeof simbolo2);
+
+//Tipo de clase(las clases son funciones)
+class persona{
+
+constructor(nombre, apellido){
+        this.nombre = nombre;
+        this.apellido = apellido;
+} 
+
+}
+
+console.log(persona);
+console.log(typeof  persona);
+
+//Tipo de dato undefined
+var x;
+console.log(x);
+console.log(typeof x);
+
+var x = undefined ;
+console.log(x);
+console.log(typeof x);
+
+//Tipo null;
+var n = null;
+console.log(n);
+console.log(typeof n);
+
+//Declaracion de arreglo y su tipo
+var autos = ["BMW","KIA","Nissan","Toyota"];
+console.log(autos);
+console.log(typeof autos);
+
+//Cadena vacia
+var cade = "";
+console.log(cade);
+console.log(typeof cade);
