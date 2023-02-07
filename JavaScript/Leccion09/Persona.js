@@ -52,5 +52,6 @@ class Persona{
 
 }
 
+
 let persona1 = new Persona("Juan","Perez",12);
 console.log( persona1.toString()); 
